@@ -1,0 +1,26 @@
+{
+    "modelo": "large-v3-turbo",
+    "idioma": "es",
+    "dispositivo": "cuda",
+    "segundos_para_enviar": 3.0,
+    "segundos_para_transcribir": 0.7,
+    "fin_turno": true,
+    "segundos_turno_acabado": 1.5,
+    "umbral_turno": 0.9,
+    "microfono": null,
+    "enviar_automatico": true,
+    "duracion_minima_frase": 0.4,
+    "precision": 3,
+    "empezar_a_hablar": 0.35,
+    "seguir_hablando": 0.25,
+    "ventanas_permitidas": [
+        "claude",
+        "cmd",
+        "powershell",
+        "terminal",
+        "windows terminal"
+    ],
+    "interrumpir_hablando": false,
+    "filtro_otras_personas": true,
+    "ganancia_micro": 2.5
+}

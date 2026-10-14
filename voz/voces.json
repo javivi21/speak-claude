@@ -1,0 +1,50 @@
+{
+  "actual": "M",
+  "voces": {
+    "M": {
+      "nombre": "masculina (original)",
+      "estilo": {
+        "pausa": 0.3,
+        "melodia": 0.0,
+        "noise_scale": 0.3,
+        "noise_w_scale": 0.65,
+        "expresividad": 0.0,
+        "length_scale": 1.08
+      }
+    },
+    "F": {
+      "nombre": "femenina",
+      "estilo": {
+        "pausa": 0.3,
+        "speaker_id": 1,
+        "noise_scale": 0.55,
+        "noise_w_scale": 0.65,
+        "melodia": 0.8
+      }
+    },
+    "L": {
+      "nombre": "logo (femenina con guiño de píxeles)",
+      "estilo": {
+        "pausa": 0.3,
+        "speaker_id": 1,
+        "noise_scale": 0.55,
+        "noise_w_scale": 0.65,
+        "efectos": {
+          "pixel": {
+            "pasos": 3,
+            "bits": 7,
+            "mezcla": 0.25
+          },
+          "metal": {
+            "ms": 5,
+            "mezcla": 0.15
+          },
+          "reverb": {
+            "seg": 0.2,
+            "mezcla": 0.1
+          }
+        }
+      }
+    }
+  }
+}
